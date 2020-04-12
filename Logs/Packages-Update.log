@@ -103,3 +103,25 @@ The following packages were removed:
   com.unity.xr.oculus.android@2.38.6
   com.unity.xr.oculus.standalone@2.38.4
   com.unity.xr.openvr.standalone@2.0.5
+
+=== Sat Apr 11 14:08:30 2020
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.ads@2.3.1
+  com.unity.analytics@3.2.2
+  com.unity.package-manager-ui@2.0.3
+  com.unity.purchasing@2.0.3
+
+=== Sat Apr 11 14:16:12 2020
+
+Packages were changed.
+Update Mode: resetToDefaultDependencies
+
+The following packages were removed:
+  com.unity.ads@2.3.1
+  com.unity.analytics@3.2.2
+  com.unity.package-manager-ui@2.0.3
+  com.unity.purchasing@2.0.3
