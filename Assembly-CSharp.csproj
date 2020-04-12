@@ -409,7 +409,6 @@
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\XingLightShader.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarMaterialStateShader.cginc" />
-     <None Include="Assets\IGBlocks\Station02\ReadMeTrainStation02.txt" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Oculus\SampleFramework\Usage\HandsTrainExample\Shaders\ButtonGlow.shader" />
      <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Bitmap.shader" />
@@ -641,24 +640,6 @@
  </Reference>
  <Reference Include="UnityEditor">
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.8f1/Unity.app/Contents/Managed/UnityEditor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements.Editor">
- <HintPath>/Users/stevensung/Documents/uiuc/cs498_vr/Perdu/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.Tracker">
- <HintPath>/Users/stevensung/Documents/uiuc/cs498_vr/Perdu/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>/Users/stevensung/Documents/uiuc/cs498_vr/Perdu/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Users/stevensung/Documents/uiuc/cs498_vr/Perdu/Library/PackageCache/com.unity.purchasing@2.0.3/UnityEngine.Purchasing.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.Editor">
- <HintPath>/Users/stevensung/Documents/uiuc/cs498_vr/Perdu/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Users/stevensung/Documents/uiuc/cs498_vr/Perdu/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2019.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -1063,14 +1044,6 @@
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{7f3f2026-6e3f-0261-3619-a3d35fa2f7a2}</Project>
       <Name>UnityEditor.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.PackageManagerUI.Editor.csproj">
-      <Project>{7abe39d6-fc4d-990e-cacd-da276452bb62}</Project>
-      <Name>Unity.PackageManagerUI.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Analytics.DataPrivacy.csproj">
-      <Project>{053d8b11-d1c2-f0a9-555f-bc39b4eb1854}</Project>
-      <Name>Unity.Analytics.DataPrivacy</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

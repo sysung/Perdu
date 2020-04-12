@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 4462501743520454}
   - component: {fileID: 33267885412003692}
   - component: {fileID: 23802163840066252}
-  - component: {fileID: 8968866181158524297}
-  - component: {fileID: 7695395099637569377}
+  - component: {fileID: 4959296810109097368}
   m_Layer: 0
   m_Name: NS_Brick_Apartment_EntranceB
   m_TagString: Untagged
@@ -81,7 +80,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &8968866181158524297
+--- !u!65 &4959296810109097368
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -92,18 +91,5 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2, y: 4.0339375, z: 6.51008}
-  m_Center: {x: 2, y: 2, z: 0}
---- !u!65 &7695395099637569377
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1499578951794630}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2, y: 4.0339375, z: 6.51008}
-  m_Center: {x: -2, y: 2, z: 0}
+  m_Size: {x: 6.257945, y: 4.0339375, z: 6.51008}
+  m_Center: {x: -0.00000035762787, y: 2, z: 0}
